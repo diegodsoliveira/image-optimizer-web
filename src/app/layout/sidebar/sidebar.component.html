@@ -1,0 +1,24 @@
+<div>
+  <aside class="w-64 bg-white border-r">
+    <div class="flex items-center justify-center h-16 border-b">
+      <span class="text-2xl font-semibold text-indigo-600">Logo</span>
+    </div>
+    <app-menu [menuList]="menuList"></app-menu>
+
+    <!-- User Profile Section -->
+    <div class="absolute bottom-0 w-full">
+      <div
+        class="flex items-center p-4 border-t w-64 hover:bg-gray-50 cursor-pointer"
+      >
+        <img
+          class="w-10 h-10 rounded-full"
+          src="https://randomuser.me/api/portraits/men/75.jpg"
+          alt="User Profile"
+        />
+        <div class="ml-3">
+          <p class="text-sm font-medium text-gray-700">Diego Oliveira</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>

@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.outlined {
+  font-family: 'Material Icons Outlined';
+  font-weight: 200;
+}
+
+.text-2xl {
+  line-height: 1.5rem;
+}

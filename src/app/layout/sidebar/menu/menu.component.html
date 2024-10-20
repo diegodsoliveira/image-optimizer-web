@@ -1,0 +1,15 @@
+<nav class="px-4 py-6 flex h-screen">
+  <ul>
+    @for (menu of menuList; track $index) {
+    <li class="mb-2">
+      <a
+        href="#"
+        class="flex items-center p-2 space-x-3 rounded-md text-gray-400 hover:text-indigo-600 hover:bg-gray-50 w-56 text-2xl"
+      >
+        <mat-icon fontIcon="{{ menu.iconName }}" class="outlined"></mat-icon>
+        <span class="text-base text-gray-600">{{ menu.name }}</span>
+      </a>
+    </li>
+    }
+  </ul>
+</nav>
