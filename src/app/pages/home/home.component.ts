@@ -5,6 +5,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { FileUploadComponent } from '../../layout/file-upload/file-upload.component';
 import { MenuComponent } from '../../layout/sidebar/menu/menu.component';
 import { SidebarComponent } from '../../layout/sidebar/sidebar.component';
+import { ToolBarComponent } from '../../layout/tool-bar/tool-bar.component';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ import { SidebarComponent } from '../../layout/sidebar/sidebar.component';
     SidebarComponent,
     FileUploadComponent,
     MatToolbarModule,
+    ToolBarComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
